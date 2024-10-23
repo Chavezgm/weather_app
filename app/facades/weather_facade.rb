@@ -11,7 +11,7 @@ class WeatherFacade
   private
 
   def parse_response(response)
-    return [] unless response[:features] # Ensure the response contains features
+    return [] unless response[:features] 
 
     response[:features].map do |feature|
       # require 'pry'; binding.pry
