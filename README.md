@@ -14,8 +14,10 @@ Weather App is a Rails API project developed to retrieve weather zone data using
    ```bash
    git clone <repository_url>
 
+   ```
 
-   bundle install
+
+  ``` bundle install```
    
     rails server
 
