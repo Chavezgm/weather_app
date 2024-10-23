@@ -1,0 +1,11 @@
+<h1>Select a State</h1>
+
+<%= form_with(url: weather_local_entities_path, method: :get) do |form| %>
+  <div>
+    <%= form.label :state_code, "Choose a state:" %>
+    <%= form.select :state_code, @state_codes, { include_blank: 'Select a State' }, { class: 'form-control' } %>
+  </div>
+  <div>
+    <%= form.submit 'Get Local Entities', class: 'btn btn-primary' %>
+  </div>
+<% end %>
