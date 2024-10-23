@@ -1,24 +1,27 @@
-# README
+# Weather App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Weather App is a Rails API project developed to retrieve weather zone data using the National Weather Service API. This application provides users with information about various weather zones, including local entities and their attributes.
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
+### Prerequisites
+- Ruby (version >= 2.5.0)
+- Rails (version >= 5.2.0)
+- PostgreSQL (if applicable)
 
-* System dependencies
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
 
-* Configuration
 
-* Database creation
+   bundle install
+   
+    rails server
 
-* Database initialization
+     http://localhost:3000/
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+
